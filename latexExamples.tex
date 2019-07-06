@@ -34,3 +34,15 @@
 		\frac{\rho}{1-\rho} + \frac{\rho}{\log(\rho)},  &\qquad \rho\neq 1
 		\end{cases}
 	\end{align}
+
+% mutilple lines under sum
+\documentclass{article}
+\usepackage{amsmath}
+\begin{document}
+\[
+  \sum_{\substack{i=0 \\ i\neq 4}}^n i
+\]
+
+In inline math: $\sum_{\substack{i=0 \\ i\neq 4}}^n i$, or
+$\sum\limits_{\substack{i=0 \\ i\neq 4}}^n i$
+\end{document}
